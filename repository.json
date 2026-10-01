@@ -1,0 +1,13 @@
+{
+  "name": "azure-secure-infrastructure-terraform",
+  "description": "Personal Azure security lab: Terraform private endpoints, scoped managed identity, Key Vault, encryption controls, and audit logging.",
+  "topics": [
+    "azure",
+    "terraform",
+    "cloud-security",
+    "infrastructure-as-code",
+    "private-endpoint",
+    "key-vault"
+  ],
+  "license": "MIT"
+}

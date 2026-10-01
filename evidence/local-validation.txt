@@ -1,0 +1,49 @@
+Local validation captured at 2026-10-01T23:32:50.687165+00:00
+Platform: win32
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+Cloud deployment and integration tests: NOT RUN
+
+> terraform version
+Terraform v1.16.4
+on windows_amd64
++ provider registry.terraform.io/hashicorp/azurerm v4.81.0
+
+
+Exit code: 0
+
+> terraform fmt -check -recursive
+
+
+Exit code: 0
+
+> terraform validate -no-color
+Success! The configuration is valid.
+
+
+
+Exit code: 0
+
+> terraform test -no-color
+tests\security.tftest.hcl... in progress
+  run "security_defaults"... pass
+  run "reject_bad_suffix"... pass
+tests\security.tftest.hcl... tearing down
+tests\security.tftest.hcl... pass
+
+Success! 2 passed, 0 failed.
+
+
+Exit code: 0
+
+> python scripts/estimate_cost.py
+{
+  "currency": "USD",
+  "private_endpoints": 14.6,
+  "log_ingestion": 9.0,
+  "other_allowance": 5,
+  "illustrative_monthly_total": 28.6,
+  "not_a_quote": true
+}
+
+
+Exit code: 0

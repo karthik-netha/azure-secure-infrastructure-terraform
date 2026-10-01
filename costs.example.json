@@ -1,0 +1,10 @@
+{
+  "currency": "USD",
+  "hours": 730,
+  "private_endpoint_hourly_assumption": 0.01,
+  "private_endpoints": 2,
+  "log_gb_per_day": 0.1,
+  "log_gb_rate_assumption": 3.0,
+  "storage_dns_vault_allowance": 5,
+  "note": "Illustrative assumptions, not a price quote. Reprice in Azure calculator before apply."
+}

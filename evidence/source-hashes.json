@@ -1,0 +1,23 @@
+{
+  ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+  ".gitignore": "eb52704b5b28515c28a5711e9aa6e4a0f27ad9dc6692cac63a2935e1b9bb5d30",
+  ".terraform.lock.hcl": "c782fdef01a7341630fb0899e8dd9370af4b2d07bb12db491a9fe383ebeaf5c6",
+  "costs.example.json": "dd3bb87881a2734c6f51b22980c0897f9647ae0a73eb001e1252e19083622d74",
+  "LICENSE": "1a525cfd1a24d39161ae19598ef4a31d90f21b6fb7af5dc69b6c3d55a24eb2a4",
+  "main.tf": "0d3b11d2b215b1418020d8b41a08f102071407885d364a7020c1a92492afa46b",
+  "outputs.tf": "0ad0dc50f95b2f69ea23dd7efda77230f6a62d65166d3df9c05f23189536314b",
+  "README.md": "537054f9160e19c5585bc95ff222fa9faa7443d060f1666d375dba308e03d117",
+  "repository.json": "7bad4ac9e7dafc9de0e2c2df6e1a044cb9bd792f5fe83bcf4d3e335aab7503b7",
+  "requirements.txt": "7b4e22cd53ff04f045e3747a8d66a1146bba9d244b8161028d6f4c2f784c29f8",
+  "SECURITY.md": "2a26092c3843d07ea8501cb0dae9ea61741580a63d3fc585951de2668b5cfca3",
+  "terraform.tfvars.example": "1d0e46653e988d5cf2aabc9ba1b9290222502c02c8130d7b3d840934d0366b46",
+  "variables.tf": "f620ee0e3f809d47a0c00f5d1aadfc76cc4ccc9529638ea099f513513833cc4e",
+  "versions.tf": "eadac1e48b79eca30b7ca0f2dd849a94a9e6f2c8428cc8fd33c9d5dce2fc4662",
+  "docs/costs-cleanup.md": "de2632ea5d2543e7168a8ed4f065a860ba5d94834b3b7f92b1c120131587dec1",
+  "docs/deployment.md": "467bf9da94dd0fc965547db33cd01da9fdfa17b0ddf20ab828b8f430cffc8e0a",
+  "docs/references.md": "f454378ad6c7129b835ab44f22fd28d4dcb42d44aad70e759e2b582d41192b0e",
+  "docs/walkthrough.md": "37cf0d52a1c4db5ac619aa8d5d91e96c6e903b830a5480003eb9bb1191fac30c",
+  "scripts/estimate_cost.py": "4bf92cf7eda7ede7d21aefb057a1aa46a7da6a9333434691975c9fa6ca622e54",
+  "tests/security.tftest.hcl": "53661671561e7d9c2a8df8668b48dbedb085bdbd015cee264c330f5283d0459c",
+  ".github/workflows/checks.yml": "dc35a5e05dd6e677218dd9e633fc4a65b3cdeda596f847f9d5b6a844c1371a94"
+}
