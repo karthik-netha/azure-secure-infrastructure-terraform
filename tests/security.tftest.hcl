@@ -44,3 +44,8 @@ run "reject_bad_suffix" {
   variables { suffix = "INVALID!" }
   expect_failures = [var.suffix]
 }
+run "reject_malformed_uuid" {
+  command = plan
+  variables { subscription_id = "123456789012345678901234567890123456" }
+  expect_failures = [var.subscription_id]
+}
