@@ -2,7 +2,7 @@ variable "subscription_id" {
   type        = string
   description = "Target sandbox subscription UUID; not a credential."
   validation {
-    condition     = can(regex("^[0-9a-fA-F-]{36}$", var.subscription_id))
+    condition     = can(regex("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$", var.subscription_id))
     error_message = "Use a subscription UUID."
   }
 }
@@ -10,7 +10,7 @@ variable "tenant_id" {
   type        = string
   description = "Microsoft Entra tenant UUID."
   validation {
-    condition     = can(regex("^[0-9a-fA-F-]{36}$", var.tenant_id))
+    condition     = can(regex("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$", var.tenant_id))
     error_message = "Use a tenant UUID."
   }
 }
